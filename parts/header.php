@@ -4,13 +4,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>
-			<?php 
-			title();?>
+			<?php title();?>
 		</title>
-		<link rel="stylesheet" href="../public/style.css">
+		<link rel="stylesheet" href="semantic.min.css">
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<div>
-			<h2>Super site !</h2>
-		</div>
 		<?php getPart('menu'); ?>
+		<div class="global">
