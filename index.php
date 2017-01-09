@@ -12,7 +12,7 @@
 	?>
 	<div>BOnjour</div>	
 	<?php
-	include __DIR__ . '/loop.php';
+	include __DIR__ . 'loop.php';
 	?>
 	
 </body>

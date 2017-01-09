@@ -7,12 +7,12 @@
 <body>
 <div>
 	<?php 
-	$a = 0;
-	$b = rand(0, 100);
-
-	for ($a=0; $a <= 20; $a++) { 
-		$a = $a * $b;
-		echo  $a . "\n";
+	$a = 100;
+	$b = rand(1, 100);
+	echo "$b ";
+	for (; $a >= 10; $a--) { 
+		$c = $a * $b;
+		echo "$c"."\n";
 	}
 
 	 ?>
