@@ -5,17 +5,15 @@
 	<title>Loops</title>
 </head>
 <body>
-<div>
-	<?php 
-	$a = 100;
-	$b = rand(1, 100);
-	echo "$b ";
-	for (; $a >= 10; $a--) { 
-		$c = $a * $b;
-		echo "$c"."\n";
-	}
+	<div>
+		<?php 
+		$a = 1;
+		while ($a < 10) {
+			echo $a . "\n";
+			$a = $a + $a / 2;
+		}
 
-	 ?>
+	?>
 </div>
 </body>
 </html>
