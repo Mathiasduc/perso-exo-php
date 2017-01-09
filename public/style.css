@@ -9,22 +9,35 @@ html {
 }
 
 body{
+	background-color: #eae8e7;
 }
-#menu{
-	background-color: #e3dede;
-	font-size: 1.2rem;
+.box{																																																			
+	box-shadow: 3px 3px 6px 1px #656565;
+	background-color: white;
 }
-#menu a{
-	color: #333030;
+.main{	
+	min-height: 70vh;
 }
-#menu a:visited{
-
-}
-.global{
+/* .global{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	max-width: 95%;
 	margin-right: auto;
 	margin-left: auto;
+} */
+#menu a{
+	font-size: 1.2rem;
+	color: #333030;
 }
+.ui.menu .active.item{
+	background-color: rgba(34,36,38,.15);
+}
+
+.ui.form.box{
+	padding: 1.3em;
+	border-radius: 0.5em;
+}
+/* .sidebar-main.ui.grid{
+	margin-top: 1.5em;
+} */

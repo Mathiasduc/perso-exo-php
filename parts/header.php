@@ -10,5 +10,8 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
+		<div class="global ui grid">
+		<div class="row">
 		<?php getPart('menu'); ?>
-		<div class="global">
+		</div>
+		<div class="sidebar-main">

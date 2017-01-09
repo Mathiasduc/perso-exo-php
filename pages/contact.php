@@ -1,5 +1,5 @@
-<div class="contact main">
-	<form action="save.php" method="post" class="ui form">
+<div class="contact main ">
+	<form action="save.php" method="post" class="box ui form">
 		<h3 class="ui dividing header">Contactez moi:</h3>
 		<div class="field">
 			<div class="two fields">
@@ -17,7 +17,7 @@
 			<label >Message</label>
 			<textarea name="message" id="textarea-contact" cols="30" rows="10"></textarea>
 		</div>
-		<button class="button">Envoyer</button>
+		<button class="ui teal button">Envoyer</button>
 		<div class="ui error message"></div>
 	</form>
 </div>
